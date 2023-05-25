@@ -45,9 +45,10 @@ class GuessMyNumber
         string playAgain = Console.ReadLine();
 
         // If the user says yes, play the game again.
+        // If the user says yes, play the game again.
         if (playAgain == "y")
         {
-            Main();
+            Main(new string [0]);
         }
     }
 }
